@@ -1,0 +1,16 @@
+24-10-2005 by emm
+Added contextURL access from ImageLabel to TerminalClientService
+to support relative URLs for images.
+
+09-10-2005 by emm
+Fixed the problem when the cursor was located
+outside the new bounds of the next Screen.
+Removing that old cursor caused Array-out-of-bounds exception
+
+07-06-2005 by emm
+Fixed the problem when 2 dropdown are opened
+(Hopefully) fixed the problem when toggling a character out of bounds
+
+19-05-2005 by emm
+Initial check-in of generated sources from 
+VisualAge for Smalltalk repository.
